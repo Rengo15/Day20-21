@@ -1,0 +1,117 @@
+body {
+    
+    justify-content:center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.keyboard {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    user-select: none;
+    transition: bottom 0.4s;
+    align-content: left;
+    text-align: center;
+    justify-content: space-between;
+}
+.kb1{
+    margin-top: 50px;
+}
+.kb2{
+    margin-left: -30px;
+}
+.kb3{
+    margin-left: -300px;
+}
+.kb4{
+    margin-left: -60px;
+}
+
+
+
+
+button {
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(31, 30, 30);
+    justify-self: center;
+    font-weight: bolder;
+}
+#space{
+    width: 680px;
+}
+#ok{
+    width: 220px;
+}
+#shift{
+    width: 220px;
+}
+#backSpace{
+    height: 60px;
+    width: 200px;
+    
+}
+
+
+
+
+.red {
+    display: block;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.textarea-wrapper {
+    margin: auto;
+    display: flex;
+}
+
+textarea[type="text"] {
+    border: 2px solid aqua;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 0.7vw;
+    font-size: 2vw;
+    margin: auto;
+}
+
+textarea[type="text"]:hover {
+    background-color: azure;
+    outline: aqua;
+    border-color: aqua;
+}
+
+@media screen and (min-width: 768px) {
+    textarea[type="text"] {
+        width: 60vw;
+        height: 15vw;
+        border-radius: 1vw;
+        font-size: 1.7vw;
+    }
+    button {
+        border-radius: 0.2vw;
+        margin: 2px;
+        font-size: 20px;
+        padding: 1vw 2vw;
+        font-weight: 500;
+    }
+    .space {
+        width: 340px;
+    }
+}
